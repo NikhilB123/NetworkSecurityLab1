@@ -19,7 +19,7 @@ class NewsApiManager:
     def __init__(self):
         self.secrecy = 0
         # Initializing API KEY
-        #self.newsapi = NewsApiClient(api_key='ae1a7d73cea847f0ada3fa537ab6f46d')
+        #self.newsapi = NewsApiCliennt(api_key='ae1a7d73cea847f0ada3fa537ab6f46d')
         self.errors = []
         self.data = []
         #self.update_articles()
